@@ -1,0 +1,25 @@
+body {
+    background: #191932;
+    color: white;
+}
+
+
+table {
+    border: 2px solid white;
+    width: 500px;
+    margin: 0 auto;
+}
+
+td {
+    width: 100px;
+    padding: 30px;
+    height: 50px;
+
+}
+
+td#displayBox {
+    text-align: right;
+    height: 5px;
+    border: 2px solid pink;
+    margin: 10px;
+}
