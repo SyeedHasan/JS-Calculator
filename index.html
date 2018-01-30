@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
     <title>Calculator</title>
 </head>
 
@@ -15,39 +14,79 @@
     <table>
         <!-- Display row -->
         <tr>
-            <td id="displayBox" colspan="4">Display Box</td>
+            <td id="displayBox" colspan="4"></td>
         </tr>
 
         <!-- Numeric Row and one Sign -->
         <tr>
-            <td>7</td>
-            <td>8</td>
-            <td>9</td>
-            <td>DEL</td>
+            <td>
+                <input type="button" onclick="myFunction(this)" id="seven" value="7">
+
+            </td>
+            <td>
+                <input type="button" onclick="myFunction(this)" id="eight" value="8">
+
+            </td>
+            <td>
+                <input type="button" onclick="myFunction(this)" id="nine" value="9">
+
+            </td>
+            <td>
+                <input type="button" onclick="myFunction(this)" id="divide" value="+">
+
+            </td>
 
         </tr>
 
         <tr>
-            <td>4</td>
-            <td>5</td>
-            <td>6</td>
-            <td>+</td>
+            <td>
+                <input type="button" onclick="myFunction(this)" id="four" value="4">
+
+            </td>
+            <td>
+                <input type="button" onclick="myFunction(this)" id="five" value="5">
+            </td>
+            <td>
+                <input type="button" onclick="myFunction(this)" id="six" value="6">
+
+            </td>
+            <td>
+                <input type="button" onclick="myFunction(this)" id="multiply" value="X">
+
+            </td>
 
         </tr>
 
         <tr>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
-            <td>x</td>
+            <!-- <td id="one">1</td> -->
+            <td>
+                <input type="button" onclick="myFunction(this)" id="one" value="1">
+            </td>
+            <td>
+                <input type="button" onclick="myFunction(this)" id="two" value="2">
+            </td>
+            <td>
+                <input type="button" onclick="myFunction(this)" id="three" value="3">
+            </td>
+            <td>
+                <input type="button" onclick="myFunction(this)" id="minus" value="-">
+            </td>
 
         </tr>
 
         <tr>
-            <td>.</td>
-            <td>0</td>
-            <td>=</td>
-            <td>-</td>
+            <td>
+                <input type="button" onclick="myFunction(this)" id="decimal" value=".">
+            </td>
+            <td>
+                <input type="button" onclick="myFunction(this)" id="zero" value="0">
+            </td>
+            <td>
+                <input type="button" onclick="myFunction(this)" id="equal" value="=">
+            </td>
+            <td>
+                <input type="button" onclick="myFunction(this)" id="add" value="+">
+            </td>
 
         </tr>
 
@@ -55,4 +94,8 @@
     </table>
 </body>
 
+<script src="script.js"></script>
+
+
 </html>
+
