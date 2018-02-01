@@ -38,10 +38,12 @@ function myFunction(obj) {
 };
 
 answer.addEventListener('click', function () {
-    if(display.value !== ""){
+    if(display.value){
         var ans = eval(display.value);
         display.value = ans;
         answerState = true;
+        // Back to default state.
+        identifyValue = "symbol";
     }
 
 });
@@ -58,6 +60,7 @@ Array.from(symbols).forEach(function (symbol) {
     symbol.addEventListener('click', function (sym) {
         if (identifyValue !== "symbol" && symbol.value !== "=") {
             //A symbol has been used.
+            console.log('this!');
             identifyValue = "symbol";
             display.value += symbol.value;
         }

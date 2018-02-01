@@ -6,30 +6,37 @@ body {
 table {
     background: white;
     box-shadow: 10px 10px  0 rgba(0,0,0,0.1);
-    width: 500px;
-    margin: 0 auto;
+    width: 100px;
+    margin: 40px auto;
 }
 
 td {
-    width: 100px;
-    padding: 30px;
+    /* width: 100px; */
+    /* padding: 30px; */
+    padding: 20px;
     height: 50px;
 }
 
-td#displayBox {
-    text-align: right;
-    height: 5px;
-    border: 2px solid pink;
-    margin: 10px;
-}
+/*  */
 
 input {
     border: none;
     padding: 10px;
     background: inherit;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     color: black;
     width: 100%;
     margin: 0 auto;
     height: 40px;
+    font-size: 20px;
+}
+
+input#displayBox {
+    padding-left: 20px;
+    border: 2px solid black;
+}
+
+input:focus {
+    border: 1px solid black;
+    outline-width: 0;
 }
