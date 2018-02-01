@@ -14,25 +14,27 @@
     <table>
         <!-- Display row -->
         <tr>
-            <td id="displayBox" colspan="4"></td>
+            <td>
+                <input  id="displayBox" type="text" value="" >
+            </td>
         </tr>
 
         <!-- Numeric Row and one Sign -->
         <tr>
             <td>
-                <input type="button" onclick="myFunction(this)" id="seven" value="7">
+                <input type="button" onclick="myFunction(this)" class="number" id="seven" value="7">
 
             </td>
             <td>
-                <input type="button" onclick="myFunction(this)" id="eight" value="8">
+                <input type="button" onclick="myFunction(this)" class="number" id="eight" value="8">
 
             </td>
             <td>
-                <input type="button" onclick="myFunction(this)" id="nine" value="9">
+                <input type="button" onclick="myFunction(this)" class="number" id="nine" value="9">
 
             </td>
             <td>
-                <input type="button" onclick="myFunction(this)" id="divide" value="+">
+                <input type="button" onclick="myFunction(this)" class="symbols" id="divide" value="+">
 
             </td>
 
@@ -40,18 +42,18 @@
 
         <tr>
             <td>
-                <input type="button" onclick="myFunction(this)" id="four" value="4">
+                <input type="button" onclick="myFunction(this)" class="number" id="four" value="4">
 
             </td>
             <td>
-                <input type="button" onclick="myFunction(this)" id="five" value="5">
+                <input type="button" onclick="myFunction(this)" class="number" id="five" value="5">
             </td>
             <td>
-                <input type="button" onclick="myFunction(this)" id="six" value="6">
+                <input type="button" onclick="myFunction(this)" class="number" id="six" value="6">
 
             </td>
             <td>
-                <input type="button" onclick="myFunction(this)" id="multiply" value="X">
+                <input type="button" onclick="myFunction(this)" class="symbols" id="multiply" value="*">
 
             </td>
 
@@ -60,32 +62,32 @@
         <tr>
             <!-- <td id="one">1</td> -->
             <td>
-                <input type="button" onclick="myFunction(this)" id="one" value="1">
+                <input type="button" onclick="myFunction(this)" class="number" id="one" value="1">
             </td>
             <td>
-                <input type="button" onclick="myFunction(this)" id="two" value="2">
+                <input type="button" onclick="myFunction(this)" class="number" id="two" value="2">
             </td>
             <td>
-                <input type="button" onclick="myFunction(this)" id="three" value="3">
+                <input type="button" onclick="myFunction(this)" class="number" id="three" value="3">
             </td>
             <td>
-                <input type="button" onclick="myFunction(this)" id="minus" value="-">
+                <input type="button" onclick="myFunction(this)" class="symbols" id="minus" value="-">
             </td>
 
         </tr>
 
         <tr>
             <td>
-                <input type="button" onclick="myFunction(this)" id="decimal" value=".">
+                <input type="button" onclick="myFunction(this)" class="symbols" id="decimal" value=".">
             </td>
             <td>
-                <input type="button" onclick="myFunction(this)" id="zero" value="0">
+                <input type="button" onclick="myFunction(this)" class="number" id="zero" value="0">
             </td>
             <td>
-                <input type="button" onclick="myFunction(this)" id="equal" value="=">
+                <input type="button" id="equal" class="symbols" value="=">
             </td>
             <td>
-                <input type="button" onclick="myFunction(this)" id="add" value="+">
+                <input type="button" onclick="myFunction(this)" class="symbols" id="add" value="+">
             </td>
 
         </tr>
@@ -98,4 +100,3 @@
 
 
 </html>
-
