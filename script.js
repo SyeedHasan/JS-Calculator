@@ -12,14 +12,13 @@ let zero = document.getElementById('zero');
 // Whether an answer has been calculated or not.
 let answerState = false;
 // Identify the number/symbol to avoid repitition.
-let identifyValue = "number";
+let identifyValue = "symbol";
 
 let numbers = document.querySelectorAll('.number'); //This selects all numbers
 let symbols = document.querySelectorAll('.symbols'); //This selects all symbols
 
 var display = document.querySelector('#displayBox');
 var answer = document.querySelector('#equal');
-var lastDigit = "number";
 //Turn this into 'symbol' if a symbol is experienced.
 
 function myFunction(obj) {
@@ -39,9 +38,12 @@ function myFunction(obj) {
 };
 
 answer.addEventListener('click', function () {
-    var ans = eval(display.value);
-    display.value = ans;
-    answerState = true;
+    if(display.value !== ""){
+        var ans = eval(display.value);
+        display.value = ans;
+        answerState = true;
+    }
+
 });
 
 Array.from(numbers).forEach(function (number) {
