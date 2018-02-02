@@ -1,4 +1,4 @@
-# JS-Calculator
-Calculator using HTML, CSS, JS.
-Learning ES6 and more JS stuff.
-https://syeedhasan.github.io/JS-Calculator/
+# JavaScript Projects
+
+
+1. Calculator using HTML, CSS, JS.
