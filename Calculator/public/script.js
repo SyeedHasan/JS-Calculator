@@ -60,6 +60,7 @@ Array.from(symbols).forEach(function (symbol) {
     symbol.addEventListener('click', function (sym) {
         if (identifyValue !== "symbol" && symbol.value !== "=") {
             //A symbol has been used.
+            console.log('this!');
             identifyValue = "symbol";
             display.value += symbol.value;
         }
