@@ -1,0 +1,82 @@
+body {
+    margin: 0px;
+    /* font-family: 'Special Elite'; */
+}
+
+.top {
+    height: 100%;
+    /* background: #2196F3; */
+    background: black;
+    color: white;
+    text-align: center;
+    padding-bottom: 25px;
+    /* font-family: 'Antic Slab'; */
+}
+
+#mainHeader {
+    margin-top: 5px;
+    padding-top: 20px;
+}
+
+#desc {
+    width: 70%;
+    font-size: 17px;
+    margin: 0 auto;
+}
+/* 
+div.part {
+    background-image: url('a.jpg');
+    height: 450px;
+    background-position-x: 490px;
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+} */
+
+div.content {
+    
+    font-family: 'Special Elite';
+    margin:0 auto;
+    width: 50%;
+    font-size: 25px;
+    text-align: justify;
+}
+
+/* CODE FOR BUTTON */
+
+  .container {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .btn {
+    margin: 20px auto;
+    border: none;
+    padding: 10px 44px;
+    font-size: 36px;
+    position: relative;
+  }
+  .btn::before {
+    transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    content: '';
+    width: 50%;
+    height: 100%;
+    background: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .btn .btn-text {
+    color: white;
+    mix-blend-mode: difference;
+  }
+  .btn:hover::before {
+    background: black;
+    width: 100%;
+  }
+
+
+#author {
+    text-align: right;
+}
