@@ -1,0 +1,19 @@
+body {
+    background: #FB3254;
+}
+
+div.mainBox {
+    background: white;
+    width: 40%;
+    height: 100%;
+    margin: 100px auto;
+}
+
+input {
+    margin: 20px;
+    width: 70%;
+}
+
+h1 {
+    font-family: Lato;
+}
