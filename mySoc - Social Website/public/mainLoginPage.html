@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>mySoc- Login</title>
+	<link rel="shortcut icon" href="Icons/if_Asset_29_2643214.png" />
+
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/mainLoginPage.css">
+	<!-- jQuery -->
+	<script type="text/javascript" src="assets/js/lib/jQuery.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
+
+
+	<script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
+	<script>
+		  // Initialize Firebase
+		  var config = {
+		    apiKey: "AIzaSyBVFapUca2Ql-I64kbUFLwYRnr8b1ugQuY",
+		    authDomain: "mysoc-id.firebaseapp.com",
+		    databaseURL: "https://mysoc-id.firebaseio.com",
+		    projectId: "mysoc-id",
+		    storageBucket: "",
+		    messagingSenderId: "755356454682"
+		  };
+		  firebase.initializeApp(config);
+	</script>
+</head>
+
+<body>
+
+	<div id="container">
+		<hr>
+		<div>
+			<h1 class="mainHeading">mySoc</h1>
+		</div>
+		<hr>
+	<div id="my">
+		<div class="signIn">
+			<a id="firstLink" href="mainSignupPage.html">Signup</a>
+		</div>
+		<div class="signIn">
+			<a id="secondLink">Login</a>
+		</div>
+
+	</div>
+		<hr>
+
+		<p id="loginInfo">Login to mySoc with your account or head over to <a href="mainSignupPage.html">Signup</a> to create a new account</p>
+
+		<div class="form-group">
+			<table class="myTable">
+				<tr>
+					<td><label>Email: </label></td>
+					<td><input id="userEmail" class="form-control" type="email" required></td>
+				</tr>
+
+				<div>
+					<tr>
+					<td><label>Password: </label></td>
+					<td><input id="userPassword" class="form-control" type="password" required></td>
+					</tr>
+				</div>
+
+				<div>
+					<tr>
+						<td>
+							<p><a id="resetLink" href="resetPassword.html">Forgotten your password?</a></p>
+						</td>
+					</tr>
+				</div>
+
+			</table>
+			<button onclick="login()" class="btn btn-md btn-default">Login</button>
+		</div>
+		
+
+
+
+	</div>
+
+
+
+<!-- 
+		<form>
+			<fieldset class="input-group">
+				<label for="userName" class="inpLabel">Email</label>
+				<input id="userName" type="email" name="username" required autofocus>
+			</fieldset>
+
+			<fieldset class="input-group">
+				<label for="password" class="inpLabel">Password</label></label>
+				<input id="password" type="password" name="password" required autofocus>
+			</fieldset>
+			</form> 
+-->
+
+
+
+	<!-- Bootstrap JS -->
+	<script type="text/javascript" src="assets/js/lib/bootstrap.js"></script>
+	<script type="text/javascript" src="assets/js/mainJS.js"></script></script>
+
+</body>
+
+</html>

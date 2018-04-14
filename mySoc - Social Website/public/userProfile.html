@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>mySoc- User Profile</title>
+<!-- Fav-icon -->
+	<link rel="shortcut icon" href="Icons/if_Asset_29_2643214.png" />
+
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/userProfile.css">
+
+	<!-- jQuery -->
+	<script type="text/javascript" src="assets/js/lib/jQuery.js"></script>
+	<!-- Poppins font -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
+
+	<script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
+
+	<script>
+		  // Initialize Firebase
+		  var config = {
+		    apiKey: "AIzaSyBVFapUca2Ql-I64kbUFLwYRnr8b1ugQuY",
+		    authDomain: "mysoc-id.firebaseapp.com",
+		    databaseURL: "https://mysoc-id.firebaseio.com",
+		    projectId: "mysoc-id",
+		    storageBucket: "",
+		    messagingSenderId: "755356454682"
+		  };
+		  firebase.initializeApp(config);
+	</script>
+</head>
+
+
+
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="mainNav">
+					<h1 class="mainHeading"><a href="mainHomePage.html">mySoc</a></h1>
+				</div>
+
+				<div class="userNameNav">
+					<h1 id="profileName">Profile</h1>
+				</div>
+
+				<div class="mainContent">
+					<img class="imgOptions"/>
+					<button id="changeImg" type="button" class="btn btn-default btn-md">Change Profile Picture</button>
+					
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- Bootstrap JS -->
+	<script type="text/javascript" src="assets/js/lib/bootstrap.js"></script>
+	<script type="text/javascript" src="assets/js/userProfile.js"></script></script>
+</body>
+</html>

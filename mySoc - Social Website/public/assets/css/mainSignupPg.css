@@ -1,0 +1,122 @@
+/*
+	Main Color Scheme:
+	
+	Peechish - #F5B076
+	Light Pink - #EB8063 
+	Pink - #D3475B
+	Light blue - #474889
+	Dark Blue - #1E1D45
+
+*/
+
+.active, .active:active, .active:hover, .active:visited 
+{ 
+	/*CORRECT USING JS!*/
+	text-decoration: underline;
+	text-underline-position: under;
+}
+
+
+body {
+	/*min-width: 1079px;*/
+	min-width: 680px;
+	/*background: #54aeff;old color*/
+	background: #03132d;
+	color: white;
+	font-family: 'Poppins';
+
+}
+
+#container {
+	width: 60%;
+	margin: 10px auto;
+	padding: 30px;
+
+}
+
+a {
+	/*color: #1f4175; old color*/
+	color:#AFEEEE;
+	/*color: white;*/
+}
+
+.signIn {
+	display: inline-block;
+	display: flex;
+	flex-wrap: nowrap;
+	margin: 20px 0;
+	justify-content: space-around;
+	font-size: 20px;
+	/*font-weight: 700;*/
+}
+
+label {
+	font-weight: normal;
+}
+
+#container a:hover {
+	/*color: #1E1D45;*/
+	color: #E0FFFF;
+	/*text-decoration: underline;*/
+	text-underline-position: under;
+}
+
+#signUpInfo {
+	text-align: center;
+	margin: 20px;
+	font-size: 15px;
+}
+
+.myTable {
+	margin: 0 auto;
+}
+
+.form-control {
+	height: 30px;
+	width: 100%;
+	margin-top: 20px;
+	display: inline-block;
+}
+
+label {
+	padding-top:20px;
+	font-size: 15px;
+}
+
+input {
+	margin-left: 25px;
+	width: 100%;
+}
+
+button {
+	/*margin: 25px 25px 25px 30px;*/
+	margin: 10px 100px;
+	width: 70%;
+}
+
+#resetLink{
+	color: white;
+	text-decoration: none;
+}
+
+.mainHeading {
+	margin-top: 0;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+
+/*form {
+   width: 300px;
+   height: 450px;
+   margin: auto;
+   position: relative;
+ }
+*/
+
+@media only screen and (max-width:1000px){
+	button {
+			margin: 20px 70px;
+			width: 70%;
+	}
+}
