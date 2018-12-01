@@ -1,0 +1,40 @@
+
+body {
+    min-width: 500px;
+}
+
+h1 {
+    display: inline;
+}
+
+input {
+    width: 15%;
+    height: 25px;
+    margin: 3px;
+    display: inline;
+}
+
+div.mainBox>div {
+    margin: 0 auto;
+    display: inline;
+}
+
+div.center {
+    width: 20%;
+    margin: 100px auto;
+    text-align: center;
+}
+
+@media screen and (max-width:837px){
+    div.center {
+        width: 40%;
+        margin: 0 auto;
+    }
+}
+
+/* Copied code for disabling links */
+/* https://stackoverflow.com/questions/13955667/disabled-href-tag */
+a.disabled {
+    pointer-events: none;
+    cursor: none;
+ }

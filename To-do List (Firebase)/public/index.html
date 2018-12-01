@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title> To-do List </title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="download.png" type="image/png">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+    crossorigin="anonymous">
+</head>
+
+<body>
+
+  <div class="inbox">
+    <div class="item">
+      <input type="text" placeholder="Insert here. Press Enter">
+    </div>
+
+    <div class="item">
+      <a href='#' class='button blue'>Add to-do</a>
+    </div>
+
+
+
+    <!-- <div class="item">
+      <input type="checkbox">
+      <p>This is an inbox layout.</p>
+    </div> -->
+
+  </div>
+
+  <div class="credits">
+    <small style="font-family:'Century Gothic'; color: white; ">Developed by Syed Hasan.</small>
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyB1PHsT5rxFaE6Bb1wBregrahEjhfhhhmI",
+      authDomain: "todolist-70262.firebaseapp.com",
+      databaseURL: "https://todolist-70262.firebaseio.com",
+      projectId: "todolist-70262",
+      storageBucket: "todolist-70262.appspot.com",
+      messagingSenderId: "542052025246"
+    };
+    firebase.initializeApp(config);
+  </script>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

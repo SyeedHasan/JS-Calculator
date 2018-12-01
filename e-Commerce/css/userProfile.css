@@ -1,0 +1,74 @@
+body {
+	margin: 0;
+	min-width: 800px;
+	width: 100%;
+	font-family: 'Poppins';
+}
+
+a {
+	color: white;
+}
+
+
+a:hover {
+	color: white; /*Change*/
+	text-decoration: none;
+}
+
+.mainNav {
+	height: 100px;
+	background: #03132d;
+	width: 100%;
+	text-align: center;
+}
+
+.mainHeading {
+	color: white;
+	padding-top: 1.5%;
+	display: inline-block;
+}
+
+.userNameNav {
+	height: 100px;
+	width: 80%;
+	margin: 0 auto;
+	background: #092147;
+	color: white;
+	text-align: center;
+	padding-top: 12px;
+}
+
+.mainContent {
+	background: white;
+	color: black;
+	margin: 0 auto;
+	width: 70%;
+	height: 100%;
+}
+
+.imgOptions{
+	margin: auto;
+	padding-top: 20px;
+	padding-left: 23%;
+	height: 300px;
+}
+
+/*Button to change image*/
+#changeImg {
+	width: 50%;
+	margin: 20px 26%;
+}
+
+@media only screen and (max-width:1209px){
+	.imgOptions {
+		padding-left: 18%;
+	}
+}
+
+@media only screen and (max-width: 1000px){
+	.imgOptions {
+		padding-left: 7%;
+	}
+}
+
+

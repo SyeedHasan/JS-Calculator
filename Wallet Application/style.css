@@ -1,0 +1,27 @@
+body {
+    background: #EE3B69;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#reg {
+    color: white;
+    letter-spacing: 0;
+    font-size: 22px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+div.topDiv {
+    margin-top: 13%;
+}
+
+div.form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+input {
+    /* width: 40%; */
+    margin: 0 auto;
+    /* border: none; */
+}

@@ -1,0 +1,13 @@
+
+1- Show every users posts with the proper dashboard
+
+2- If wants to post, lead to login
+    2A- Login leads to signup if the user will
+    2B- Signup if required
+    2C- Back to login for authentication
+
+3- Now post the ad
+
+4- Display all ads
+
+5- User profile can also be displayed upon clicking
